@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 16 14:32:18 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>752 seconds (752431 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC_002_Courses.scrollUp()'><b>scrollUp</b><br>Test class: testCases.TC_002_Courses</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002_Courses@15ff3e9e</td></tr>
+<tr>
+<td title='testCases.TC_004_LanguageLearning.search_Language()'><b>search_Language</b><br>Test class: testCases.TC_004_LanguageLearning</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC_004_LanguageLearning@32eff876</td></tr>
+<tr>
+<td title='testCases.TC_005_FormDetails.navigateToForm()'><b>navigateToForm</b><br>Test class: testCases.TC_005_FormDetails</td>
+<td></td>
+<td>155</td>
+<td>testCases.TC_005_FormDetails@8dbdac1</td></tr>
+<tr>
+<td title='testCases.TC_002_Courses.select_langs()'><b>select_langs</b><br>Test class: testCases.TC_002_Courses</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_002_Courses@15ff3e9e</td></tr>
+<tr>
+<td title='testCases.TC_001_CourseraPage.Verify_CourseraPage()'><b>Verify_CourseraPage</b><br>Test class: testCases.TC_001_CourseraPage</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_001_CourseraPage@1d9b7cce</td></tr>
+<tr>
+<td title='testCases.TC_003_WebDevelopmentCourses.course_name()'><b>course_name</b><br>Test class: testCases.TC_003_WebDevelopmentCourses</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_003_WebDevelopmentCourses@5e0826e7</td></tr>
+<tr>
+<td title='testCases.TC_005_FormDetails.navigateToEnterprisePage()'><b>navigateToEnterprisePage</b><br>Test class: testCases.TC_005_FormDetails</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC_005_FormDetails@8dbdac1</td></tr>
+<tr>
+<td title='testCases.TC_004_LanguageLearning.show_FiveCourses()'><b>show_FiveCourses</b><br>Test class: testCases.TC_004_LanguageLearning</td>
+<td></td>
+<td>385</td>
+<td>testCases.TC_004_LanguageLearning@32eff876</td></tr>
+<tr>
+<td title='testCases.TC_002_Courses.search_courses()'><b>search_courses</b><br>Test class: testCases.TC_002_Courses<br>Parameters: Web Development Course</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC_002_Courses@15ff3e9e</td></tr>
+<tr>
+<td title='testCases.TC_002_Courses.select_levels()'><b>select_levels</b><br>Test class: testCases.TC_002_Courses</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_002_Courses@15ff3e9e</td></tr>
+<tr>
+<td title='testCases.TC_003_WebDevelopmentCourses.FirstTwoCourses()'><b>FirstTwoCourses</b><br>Test class: testCases.TC_003_WebDevelopmentCourses</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_003_WebDevelopmentCourses@5e0826e7</td></tr>
+<tr>
+<td title='testCases.TC_002_Courses.verify_SearchIcon()'><b>verify_SearchIcon</b><br>Test class: testCases.TC_002_Courses</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC_002_Courses@15ff3e9e</td></tr>
+<tr>
+<td title='testCases.TC_001_CourseraPage.check_survey_visibility()'><b>check_survey_visibility</b><br>Test class: testCases.TC_001_CourseraPage</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC_001_CourseraPage@1d9b7cce</td></tr>
+<tr>
+<td title='testCases.TC_005_FormDetails.FillFormDetails()'><b>FillFormDetails</b><br>Test class: testCases.TC_005_FormDetails</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC_005_FormDetails@8dbdac1</td></tr>
+</table><p>
+</body>
+</html>

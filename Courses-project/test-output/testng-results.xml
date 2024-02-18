@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="18" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-16T14:32:18 IST" name="Suite" finished-at="2024-02-16T14:44:51 IST" duration-ms="752431">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_CourseraPage.Verify_CourseraPage()[pri:2, instance:testCases.TC_001_CourseraPage@1d9b7cce]" name="Verify_CourseraPage" class="testCases.TC_001_CourseraPage"/>
+        <method signature="TC_001_CourseraPage.check_survey_visibility()[pri:1, instance:testCases.TC_001_CourseraPage@1d9b7cce]" name="check_survey_visibility" class="testCases.TC_001_CourseraPage"/>
+        <method signature="TC_002_Courses.scrollUp()[pri:7, instance:testCases.TC_002_Courses@15ff3e9e]" name="scrollUp" class="testCases.TC_002_Courses"/>
+        <method signature="TC_002_Courses.search_courses(java.lang.String)[pri:4, instance:testCases.TC_002_Courses@15ff3e9e]" name="search_courses" class="testCases.TC_002_Courses"/>
+        <method signature="TC_002_Courses.select_langs()[pri:6, instance:testCases.TC_002_Courses@15ff3e9e]" name="select_langs" class="testCases.TC_002_Courses"/>
+        <method signature="TC_002_Courses.select_levels()[pri:5, instance:testCases.TC_002_Courses@15ff3e9e]" name="select_levels" class="testCases.TC_002_Courses"/>
+        <method signature="TC_002_Courses.verify_SearchIcon()[pri:3, instance:testCases.TC_002_Courses@15ff3e9e]" name="verify_SearchIcon" class="testCases.TC_002_Courses"/>
+        <method signature="TC_003_WebDevelopmentCourses.FirstTwoCourses()[pri:9, instance:testCases.TC_003_WebDevelopmentCourses@5e0826e7]" name="FirstTwoCourses" class="testCases.TC_003_WebDevelopmentCourses"/>
+        <method signature="TC_003_WebDevelopmentCourses.course_name()[pri:8, instance:testCases.TC_003_WebDevelopmentCourses@5e0826e7]" name="course_name" class="testCases.TC_003_WebDevelopmentCourses"/>
+        <method signature="TC_004_LanguageLearning.search_Language()[pri:10, instance:testCases.TC_004_LanguageLearning@32eff876]" name="search_Language" class="testCases.TC_004_LanguageLearning"/>
+        <method signature="TC_004_LanguageLearning.show_FiveCourses()[pri:11, instance:testCases.TC_004_LanguageLearning@32eff876]" name="show_FiveCourses" class="testCases.TC_004_LanguageLearning"/>
+        <method signature="TC_005_FormDetails.FillFormDetails()[pri:14, instance:testCases.TC_005_FormDetails@8dbdac1]" name="FillFormDetails" class="testCases.TC_005_FormDetails"/>
+        <method signature="TC_005_FormDetails.navigateToEnterprisePage()[pri:12, instance:testCases.TC_005_FormDetails@8dbdac1]" name="navigateToEnterprisePage" class="testCases.TC_005_FormDetails"/>
+        <method signature="TC_005_FormDetails.navigateToForm()[pri:13, instance:testCases.TC_005_FormDetails@8dbdac1]" name="navigateToForm" class="testCases.TC_005_FormDetails"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_001_CourseraPage.Verify_CourseraPage()[pri:2, instance:testCases.TC_001_CourseraPage@1d9b7cce]" name="Verify_CourseraPage" class="testCases.TC_001_CourseraPage"/>
+        <method signature="TC_001_CourseraPage.check_survey_visibility()[pri:1, instance:testCases.TC_001_CourseraPage@1d9b7cce]" name="check_survey_visibility" class="testCases.TC_001_CourseraPage"/>
+        <method signature="TC_002_Courses.search_courses(java.lang.String)[pri:4, instance:testCases.TC_002_Courses@15ff3e9e]" name="search_courses" class="testCases.TC_002_Courses"/>
+        <method signature="TC_002_Courses.verify_SearchIcon()[pri:3, instance:testCases.TC_002_Courses@15ff3e9e]" name="verify_SearchIcon" class="testCases.TC_002_Courses"/>
+        <method signature="TC_004_LanguageLearning.search_Language()[pri:10, instance:testCases.TC_004_LanguageLearning@32eff876]" name="search_Language" class="testCases.TC_004_LanguageLearning"/>
+        <method signature="TC_005_FormDetails.navigateToEnterprisePage()[pri:12, instance:testCases.TC_005_FormDetails@8dbdac1]" name="navigateToEnterprisePage" class="testCases.TC_005_FormDetails"/>
+        <method signature="TC_005_FormDetails.navigateToForm()[pri:13, instance:testCases.TC_005_FormDetails@8dbdac1]" name="navigateToForm" class="testCases.TC_005_FormDetails"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-16T14:32:18 IST" name="Test" finished-at="2024-02-16T14:44:51 IST" duration-ms="752431">
+      <class name="testCases.TC_004_LanguageLearning">
+        <test-method signature="search_Language()[pri:10, instance:testCases.TC_004_LanguageLearning@32eff876]" started-at="2024-02-16T14:35:17 IST" name="search_Language" finished-at="2024-02-16T14:35:21 IST" duration-ms="4275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Language -->
+        <test-method signature="show_FiveCourses()[pri:11, instance:testCases.TC_004_LanguageLearning@32eff876]" started-at="2024-02-16T14:35:22 IST" name="show_FiveCourses" finished-at="2024-02-16T14:41:47 IST" duration-ms="385637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show_FiveCourses -->
+      </class> <!-- testCases.TC_004_LanguageLearning -->
+      <class name="testCases.TC_003_WebDevelopmentCourses">
+        <test-method signature="course_name()[pri:8, instance:testCases.TC_003_WebDevelopmentCourses@5e0826e7]" started-at="2024-02-16T14:35:13 IST" name="course_name" finished-at="2024-02-16T14:35:13 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- course_name -->
+        <test-method signature="FirstTwoCourses()[pri:9, instance:testCases.TC_003_WebDevelopmentCourses@5e0826e7]" started-at="2024-02-16T14:35:14 IST" name="FirstTwoCourses" finished-at="2024-02-16T14:35:16 IST" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTwoCourses -->
+      </class> <!-- testCases.TC_003_WebDevelopmentCourses -->
+      <class name="testCases.TC_005_FormDetails">
+        <test-method signature="navigateToEnterprisePage()[pri:12, instance:testCases.TC_005_FormDetails@8dbdac1]" started-at="2024-02-16T14:41:48 IST" name="navigateToEnterprisePage" finished-at="2024-02-16T14:41:57 IST" duration-ms="8913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEnterprisePage -->
+        <test-method signature="navigateToForm()[pri:13, instance:testCases.TC_005_FormDetails@8dbdac1]" started-at="2024-02-16T14:41:58 IST" name="navigateToForm" finished-at="2024-02-16T14:44:34 IST" duration-ms="155403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToForm -->
+        <test-method signature="FillFormDetails()[pri:14, instance:testCases.TC_005_FormDetails@8dbdac1]" started-at="2024-02-16T14:44:34 IST" name="FillFormDetails" finished-at="2024-02-16T14:44:50 IST" duration-ms="16539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillFormDetails -->
+      </class> <!-- testCases.TC_005_FormDetails -->
+      <class name="testCases.TC_001_CourseraPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_CourseraPage@1d9b7cce]" started-at="2024-02-16T14:32:19 IST" name="setup" finished-at="2024-02-16T14:34:45 IST" duration-ms="145464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="check_survey_visibility()[pri:1, instance:testCases.TC_001_CourseraPage@1d9b7cce]" started-at="2024-02-16T14:34:45 IST" name="check_survey_visibility" finished-at="2024-02-16T14:34:48 IST" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_survey_visibility -->
+        <test-method signature="Verify_CourseraPage()[pri:2, instance:testCases.TC_001_CourseraPage@1d9b7cce]" started-at="2024-02-16T14:34:48 IST" name="Verify_CourseraPage" finished-at="2024-02-16T14:34:48 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CourseraPage -->
+      </class> <!-- testCases.TC_001_CourseraPage -->
+      <class name="testCases.TC_002_Courses">
+        <test-method signature="verify_SearchIcon()[pri:3, instance:testCases.TC_002_Courses@15ff3e9e]" started-at="2024-02-16T14:34:48 IST" name="verify_SearchIcon" finished-at="2024-02-16T14:34:49 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_SearchIcon -->
+        <test-method signature="search_courses(java.lang.String)[pri:4, instance:testCases.TC_002_Courses@15ff3e9e]" started-at="2024-02-16T14:34:51 IST" name="search_courses" data-provider="CourseNameOne" finished-at="2024-02-16T14:35:05 IST" duration-ms="14045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web Development Course]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_courses -->
+        <test-method signature="select_levels()[pri:5, instance:testCases.TC_002_Courses@15ff3e9e]" started-at="2024-02-16T14:35:06 IST" name="select_levels" finished-at="2024-02-16T14:35:08 IST" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_levels -->
+        <test-method signature="select_langs()[pri:6, instance:testCases.TC_002_Courses@15ff3e9e]" started-at="2024-02-16T14:35:09 IST" name="select_langs" finished-at="2024-02-16T14:35:11 IST" duration-ms="2878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_langs -->
+        <test-method signature="scrollUp()[pri:7, instance:testCases.TC_002_Courses@15ff3e9e]" started-at="2024-02-16T14:35:13 IST" name="scrollUp" finished-at="2024-02-16T14:35:13 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUp -->
+      </class> <!-- testCases.TC_002_Courses -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
